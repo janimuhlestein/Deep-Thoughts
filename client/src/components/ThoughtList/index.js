@@ -29,7 +29,7 @@ const ThoughtList = ({ thoughts, title }) => {
                             </p>
                             <p className = "mb-0">
                                 Reactions: {thought.reactionCount} || Click to {' '}
-                                {thought.reactionCount ? 'see' : 'start'} the discusssion!
+                                {thought.reactionCount ? 'see' : 'start'} the discussion!
                             </p>
                         </Link>
                     </div>
